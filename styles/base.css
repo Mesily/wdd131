@@ -1,0 +1,170 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #1f4e70;
+    color: white;
+}
+
+#course-title {
+    display: block;
+    padding: 18px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #173b56;
+}
+
+nav a {
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #347da5;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+h1 {
+    color: #1f4e70;
+    text-align: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 12px;
+    color: white;
+    background-color: #1f4e70;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-me {
+    padding: 15px;
+    min-height: 145px;
+}
+
+.about-me p {
+    line-height: 1.6;
+}
+
+.profile {
+    float: right;
+    width: 115px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 0 12px 18px;
+}
+
+.about h3 {
+    clear: both;
+    width: 75%;
+    margin: 10px auto;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    padding: 0 15px 15px;
+    gap: 15px;
+}
+
+.country figure {
+    width: 35%;
+    margin: 0;
+    text-align: center;
+}
+
+.country img {
+    width: 100%;
+    max-width: 150px;
+    border: 1px solid #cccccc;
+}
+
+.country figcaption {
+    margin-top: 5px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.country p {
+    width: 65%;
+    line-height: 1.6;
+}
+
+.resources ul {
+    margin-top: 90px;
+    padding: 0 25px 25px 40px;
+    line-height: 2;
+}
+
+.resources a {
+    color: #173b56;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+    background-color: #1f4e70;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
+
+#lastModified {
+    color: #d7e6a5;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        text-align: center;
+        flex: 1 1 40%;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .resources ul {
+        margin-top: 20px;
+    }
+}
