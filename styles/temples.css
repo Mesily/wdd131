@@ -56,6 +56,9 @@ header {
     content: "✖";
 }
 
+nav {
+    display: flex;
+}
 
 .navigation {
     display: flex;
