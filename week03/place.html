@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 - COUNTRY PLACE</title>
+    <meta name="description" content="Discover Nigeria, including its location, population, capital, language, currency, and weather.">
+    <meta name="author" content="Mercy Ani">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+
+    <main>
+        <div class="place-layout">
+
+            <div class="hero">
+                <picture>
+                    <source srcset="images/nigeria-large.webp"
+                        media="(min-width: 1000px)">
+                    <source srcset="images/nigeria-medium.webp"
+                        media="(min-width: 600px)">
+                    <img src="images/nigeria-mobile.webp"
+                        alt="A lemur in its natural habitat in Nigeria"
+                        width="500"
+                        height="750">
+                </picture>
+            </div>
+
+            <section class="data">
+                <h2>Data</h2>
+
+                <dl>
+                    <div>
+                        <dt>Area:</dt>
+                        <dd>587,041 km²</dd>
+                    </div>
+                    <div>
+                        <dt>Population:</dt>
+                        <dd>27,691,019</dd>
+                    </div>
+                    <div>
+                        <dt>Capital:</dt>
+                        <dd>Antananarivo</dd>
+                    </div>
+                    <div>
+                        <dt>Languages:</dt>
+                        <dd>Malagasy, French</dd>
+                    </div>
+                    <div>
+                        <dt>Currency:</dt>
+                        <dd>Malagasy Ariary</dd>
+                    </div>
+                    <div>
+                        <dt>Time Zone:</dt>
+                        <dd>UTC+3</dd>
+                    </div>
+                    <div>
+                        <dt>Calling Code:</dt>
+                        <dd>+261</dd>
+                    </div>
+                    <div>
+                        <dt>Internet TLD:</dt>
+                        <dd>.mg</dd>
+                    </div>
+                </dl>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+
+                <img class="weather-icon"
+                    src="images/weather-partly-cloudy.svg"
+                    alt=""
+                    aria-hidden="true">
+
+                <dl>
+                    <div>
+                        <dt>Temperature:</dt>
+                        <dd>10 °C</dd>
+                    </div>
+                    <div>
+                        <dt>Conditions:</dt>
+                        <dd>Partly Cloudy</dd>
+                    </div>
+                    <div>
+                        <dt>Wind:</dt>
+                        <dd>5 km/h</dd>
+                    </div>
+                    <div>
+                        <dt>Wind Chill:</dt>
+                        <dd id="windchill">N/A</dd>
+                    </div>
+                </dl>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Mercy Ani | Nigeria</p>
+        <p>Last Modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
+
+
