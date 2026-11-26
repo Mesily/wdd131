@@ -1,9 +1,12 @@
+
 :root {
     --primary-color: #264653;
     --secondary-color: #2a9d8f;
     --accent-color: #e9c46a;
     --background-color: #f4f7f5;
     --text-color: #263238;
+    --white-color: #ffffff;
+    --shadow-color: #0000001f;
 }
 
 * {
@@ -20,7 +23,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
     padding: 1rem;
 }
 
@@ -44,7 +47,7 @@ header {
     font-size: 1.8rem;
     border: none;
     background: none;
-    color: white;
+    color: var(--white-color);
     cursor: pointer;
 }
 
@@ -69,7 +72,7 @@ nav {
 
 .navigation a {
     display: none;
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
     text-align: center;
     padding: 0.8rem;
@@ -105,11 +108,11 @@ h1 {
 }
 
 figure {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 1rem;
     text-align: center;
     border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 6px var(--shadow-color);
 }
 
 figure img {
@@ -127,7 +130,7 @@ figcaption {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
     text-align: center;
     padding: 1.5rem 1rem;
     line-height: 1.8;
