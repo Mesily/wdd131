@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+figure {
+    max-width: 400px;
+    margin: 25px auto;
+}
+
+picture {
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    margin: 0 auto;
+    background-color: black;
+
+    opacity: 0;
+    animation: fadeFromBlack 2s ease-in forwards;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@keyframes fadeFromBlack {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

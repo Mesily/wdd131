@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Images</title>
+    <meta name="description" content="A photographical representation of Nigeria using a collection of beautiful images.">
+    <meta name="author" content="Mercy Ani">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Beautiful Places in Nigeria</h1>
+    </header>
+
+    <main>
+        <h2>Explore Nigeria</h2>
+
+        <figure>
+            <picture>
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Eleko_beach_Lekki_02.jpg"
+                    alt="The sandy shoreline of Eleko Beach in Lagos State"
+                    width="400"
+                    height="600"
+                    loading="lazy">
+            </picture>
+            <figcaption>Eleko Beach, Lagos State</figcaption>
+        </figure>
+
+        <figure>
+            <picture>
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Erin-ijesa-waterfalls-waterflows-like-a-river.jpg"
+                    alt="Water flowing through the natural landscape at Erin-Ijesha Waterfalls"
+                    width="400"
+                    height="600"
+                    loading="lazy">
+            </picture>
+            <figcaption>Erin-Ijesha Waterfalls, Osun State</figcaption>
+        </figure>
+
+        <figure>
+            <picture>
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Idanre_Hill,_Ondo_State.jpg"
+                    alt="The beautiful hills of Idanre in Ondo State"
+                    width="400"
+                    height="600"
+                    loading="lazy">
+            </picture>
+            <figcaption>Idanre Hills, Ondo State</figcaption>
+        </figure>
+
+        <figure>
+            <picture>
+                <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/45/The_Gurara_Waterfalls%2C_Niger_State%2C_Nigeria.jpg" alt="Gurara Waterfalls in Niger State"
+                width="400" height="600" loading="lazy">
+                   
+            </picture>
+            <figcaption>Gurara Waterfalls, Niger State</figcaption>
+        </figure>
+
+        <figure>
+            <picture>
+                <img
+                    src="https://commons.wikimedia.org/wiki/Special:FilePath/Obudu_Mountain_Resort_03.jpg"
+                    alt="The mountainous landscape of Obudu Mountain Resort"
+                    width="400"
+                    height="600"
+                    loading="lazy">
+            </picture>
+            <figcaption>Obudu Mountain Resort, Cross River State</figcaption>
+        </figure>
+
+        <figure>
+            <picture>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/83/ZumaRock.jpg"
+                    alt="Zuma Rock in Niger State, Nigeria"
+                    width="400"
+                    height="600"
+                    loading="lazy">
+                    
+            </picture>
+            <figcaption>Zuma Rock, Niger State</figcaption>
+        </figure>
+    </main>
+
+
+   <footer>
+        <p>Copyright &copy; <span id="currentYear"></span> | Mercy Ani | Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
